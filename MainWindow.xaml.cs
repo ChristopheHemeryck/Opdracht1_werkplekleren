@@ -39,6 +39,12 @@ namespace Opdracht1_werkplekleren
             }
 
             iNumber++;
+            lblContent.Content = iNumber;
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            lblContent.Content = iNumber;
         }
     }
 }
