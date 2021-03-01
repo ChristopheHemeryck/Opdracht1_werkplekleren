@@ -24,5 +24,21 @@ namespace Opdracht1_werkplekleren
         {
             InitializeComponent();
         }
+
+        int iNumber = 0;
+
+        private void btnPush_Click(object sender, RoutedEventArgs e)
+        {
+            if (iNumber == 0)
+            {
+                txtInput.Text = "Hello world";
+            }
+            else
+            {
+                txtInput.Text = "You are wrong";
+            }
+
+            iNumber++;
+        }
     }
 }
