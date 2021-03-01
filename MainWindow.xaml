@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:Opdracht1_werkplekleren"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Loaded="Grid_Loaded">
+    <Grid>
         <Button x:Name="btnPush" Content="" HorizontalAlignment="Left" Margin="399,115,0,0" VerticalAlignment="Top" Width="52" Click="btnPush_Click"/>
         <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="317,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="59"/>
-        <Label x:Name="lblContent" Content="" HorizontalAlignment="Left" Margin="93,254,0,0" VerticalAlignment="Top" Width="87"/>
 
     </Grid>
 </Window>
