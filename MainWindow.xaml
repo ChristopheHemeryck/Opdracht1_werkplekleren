@@ -1,0 +1,14 @@
+﻿<Window x:Class="Opdracht1_werkplekleren.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opdracht1_werkplekleren"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="399,115,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="317,254,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="59"/>
+
+    </Grid>
+</Window>
